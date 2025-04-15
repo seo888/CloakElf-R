@@ -1,0 +1,8 @@
+services:
+  mirror_elf_r:
+    network_mode: host
+    restart: always
+    build: ./app
+    container_name: cloak_elf_r
+    volumes:
+      - ./app:/app
