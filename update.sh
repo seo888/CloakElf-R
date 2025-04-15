@@ -83,8 +83,8 @@ fi
 
 echo "'斗篷精灵 CloakElf $(echo "$RELEASE_JSON" | jq -r .tag_name) 下载成功'"
 
-new="/www/CloakElf_New/app/Mirror-Elf-Rust"
-old="/www/CloakElf/app/Mirror-Elf-Rust"
+new="/www/CloakElf_New/app/CloakElf"
+old="/www/CloakElf/app/CloakElf"
 mv -f "$new" "$old"
 
 new="/www/CloakElf_New/docker-compose.yml"
